@@ -40,7 +40,7 @@ export default class Random {
             return id;
     }
     static RandomBetween (min, max){
-        return this.chooseNum({min,max});
+        return Random.chooseNum({min,max});
     }
     static randomAlphaNumeric(length){
         return Random.generate(length,"alphaNumeric");
@@ -49,21 +49,20 @@ export default class Random {
         return Random.generate(length,"alphaNumericLowerCase");
     }
     static randomStringLowerCase(length) {
-        return this.generate(length,"alphaLower");
+        return Random.generate(length,"alphaLower");
     }
     static randomStringUpperCase(length) {
-        return this.generate(length,"alphaUpper");
+        return Random.generate(length,"alphaUpper");
     }
     static randomStringMixedCase(length) {
-        return this.generate(length,"alpha");
+        return Random.generate(length,"alpha");
     }
     static randomStringNumeric(length){
-        return this.generate(length,"numeric");
+        return Random.generate(length,"numeric");
     }
 }
 
-console.log(Random.randomAlphaNumeric(22))
-
+//console.log(Random.chooseChar(48))
 
 
 
