@@ -1,0 +1,24 @@
+{
+  "name": "another-random-package",
+  "version": "1.0.0",
+  "description": "A nice addition to the built in javascript random functions",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "preformance": "node ./test/preformance.js",
+    "test": "test"
+  },
+  "keywords": [
+    "random",
+    "javascript",
+    "miaklwalker",
+    "id",
+    "maker",
+    "generator"
+  ],
+  "author": "Michael Walker",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
