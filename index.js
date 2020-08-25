@@ -62,7 +62,7 @@ export default class Random {
     }
 }
 
-//console.log(Random.chooseChar(48))
+
 
 
 
