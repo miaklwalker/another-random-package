@@ -1,4 +1,4 @@
-import Random from "../index.js";
+const Random =  require("../index.js")
 
 function preformanceTest(runs,iterations,toTest,args){
     let temp = [];

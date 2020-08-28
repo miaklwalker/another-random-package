@@ -1,6 +1,6 @@
-import Type from "./Type.js"
+const Type = require("./Type.js");
 
-export default class RangeContainer {
+module.exports = class RangeContainer {
     constructor(ranges = undefined){
         if(ranges){
             this.ranges = this.addRange(ranges); 

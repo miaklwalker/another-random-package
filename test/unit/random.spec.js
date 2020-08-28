@@ -1,9 +1,4 @@
-import Random from "../../index.js";
-import {
-    describe,
-    test,
-    expect
-} from "@jest/globals";
+const Random = require("../../index.js");
 
 describe("Main Package: Random", () => {
     describe("chooseChar", () => {

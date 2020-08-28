@@ -2,11 +2,10 @@
   "name": "another-random-package",
   "version": "1.0.0",
   "description": "A nice addition to the built in javascript random functions",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "preformance": "node ./test/preformance.js",
-    "jest":"node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js",
+    "jest": "node --experimental-vm-modules --no-warnings node_modules/jest/bin/jest.js",
     "test": "npm run preformance && npm run jest"
   },
   "keywords": [

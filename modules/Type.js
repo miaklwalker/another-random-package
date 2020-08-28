@@ -1,4 +1,4 @@
-export default class Type {
+module.exports = class Type {
     constructor(key,id,min,max){
         this.key = key;
         this.id  = id ;

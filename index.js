@@ -1,5 +1,8 @@
-import Type from "./modules/Type.js";
-import RangeContainer from "./modules/rangeContainer.js";
+
+
+const Type = require("./modules/Type.js");
+const RangeContainer = require("./modules/rangeContainer.js");
+
 
 const NUMBER = 'NUMBER';
 const LOWER = 'LOWER';
@@ -21,7 +24,7 @@ let rangeContainer = new RangeContainer([
     ]);
 
 
-export default class Random {
+module.exports = class Random {
     static chooseChar(ranNum){
         return String.fromCharCode(ranNum);
     }
