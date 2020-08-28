@@ -50,8 +50,8 @@ describe("Main Package: Random", () => {
         // description, regex, length, method
         let length = 22;
         let data = [
-            ["randomAlphaNumeric","Upper,Lower,Numeric",/([A-Za-z1-9])/],
-            ["randomAlphaNumericLower","Lower, Numeric",/([a-z1-9])/],
+            ["randomStringAlphaNumeric","Upper,Lower,Numeric",/([A-Za-z1-9])/],
+            ["randomStringAlphaNumericLower","Lower, Numeric",/([a-z1-9])/],
             ["randomStringLowerCase","Lower",/([a-z])/],
             ["randomStringUpperCase","Upper",/([A-Z])/],
             ["randomStringMixedCase","Upper, Lower",/([A-Za-z])/],

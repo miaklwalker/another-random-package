@@ -45,10 +45,10 @@ module.exports = class Random {
     static RandomBetween (min, max){
         return Random.chooseNum({min,max});
     }
-    static randomAlphaNumeric(length){
+    static randomStringAlphaNumeric(length){
         return Random.generate(length,"alphaNumeric");
     }
-    static randomAlphaNumericLower(length){
+    static randomStringAlphaNumericLower(length){
         return Random.generate(length,"alphaNumericLowerCase");
     }
     static randomStringLowerCase(length) {

@@ -1,6 +1,6 @@
 {
   "name": "another-random-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice addition to the built in javascript random functions",
   "main": "index.js",
   "scripts": {
